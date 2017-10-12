@@ -276,6 +276,14 @@ h2 {
   justify-content: center;
 }
 
+#booking {
+  min-height: 100vh; 
+  background-color: black; 
+  padding-top: 170px; 
+  padding-bottom: 130px; 
+  background: url(../images/turquoise-wood.png);
+}
+
 .image-4 {
   margin-right: 9px;
   margin-left: 9px;
@@ -302,10 +310,8 @@ h2 {
 }
 
 .body-2 {
-  height: 700px;
   margin-top: 141px;
-  margin-right: 20%;
-  margin-left: 20%;
+  min-height: 100vh;
   background-image: url('../images/turquoise-wood.png');
   background-position: 0px 0px;
   background-size: cover;
@@ -495,10 +501,6 @@ html.w-mod-js *[data-ix="social-media"] {
     margin-top: 15px;
     padding-left: 18px;
     background-color: #b28c0d;
-  }
-  .body-2 {
-    margin-right: 10%;
-    margin-left: 10%;
   }
   .nav-menu {
     background-color: #f5e8bf;

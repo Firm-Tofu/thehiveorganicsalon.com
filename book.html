@@ -14,6 +14,23 @@
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/the-hive-organic-salon.webflow.css" rel="stylesheet" type="text/css">
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({
   google: {
@@ -26,7 +43,7 @@
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
 </head>
-<body class="body-2">
+<body class="body" data-ix="nav">
   <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-doc-height="1" data-duration="400" data-ix="nav">
     <div class="container w-container"><a class="w-nav-brand" href="index.html"><img class="image" sizes="(max-width: 479px) 89vw, 125px" src="images/the-hive-organic-salon-logo-01.png" srcset="images/the-hive-organic-salon-logo-01-p-500x378.png 500w, images/the-hive-organic-salon-logo-01.png 523w"></a>
       <nav class="nav-menu w-nav-menu" role="navigation"><a class="book link_nav w-nav-link" href="book.html">Book Now</a><a class="link_nav w-nav-link" href="index.html#services">SERVICES</a><a class="link_nav w-nav-link" href="index.html#contact">contact us</a><a class="link_nav no-line w-nav-link" href="index.html#gallery">GALLERY</a></nav>
@@ -35,10 +52,38 @@
       </div>
     </div>
   </div>
-  <div class="w-embed"></div>
+  
+  <div class="section" id='booking'>
+    <div class="w-container">
+      <div class="w-row">
+        <div class="w-col w-col-12" data-ix="services">
+          <div class="contact">
+            <h2 class="center white-text">Book Now</h2>
+            <center>
+              <script type="text/javascript" src="https://www.schedulicity.com/api/public/widget/PDU993/embed"></script>
+            </center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer">
+    <div class="w-container">
+      <div class="w-row">
+        <div class="column-3 social w-col w-col-4">
+          <div class="div-block-3 w-clearfix">
+            <div class="div-block-2 ig"><a class="link-block-2 w-inline-block" href="https://www.instagram.com/thehiveorganicsalon/" target="_blank"><img class="image-6" data-ix="social-media" src="images/in_clicked.png"></a></div>
+            <div class="div-block-2 fb"><a class="link-block w-inline-block" href="https://www.facebook.com/The-hive-organic-salon-1855342921368745/" target="_blank"><img class="image-5" data-ix="social-media" height="40" src="images/fb_clicked.png" width="40"></a></div>
+          </div>
+        </div>
+        <div class="column-2 w-col w-col-8"><a class="footer_nav" href="#">Book now</a><a class="footer_nav" href="#services">Services</a><a class="footer_nav" href="#contact">Contact us</a><a class="footer_nav" href="#gallery">gallery</a></div>
+      </div>
+    </div>
+  </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
-  <script type="text/javascript" src="https://www.schedulicity.com/api/public/widget/PDU993/embed"></script>
+
 </body>
 </html>
